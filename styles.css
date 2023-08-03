@@ -1,0 +1,38 @@
+.container {
+  border: 2px solid black;
+  height: 4000px;
+}
+
+.box {
+  display: inline-block;
+  border: 2px solid red;
+  width: 150px;
+  height: 150px;
+  margin: 2px;
+  border-bottom-right-radius: 50px;
+}
+#box2 {
+  /* position: absolute; */
+  position: relative;
+  top: 00px;
+  left: 00px;
+  right: 10px;
+  bottom: 300px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding-left: 10%;
+  padding-right: 50%;
+  padding-bottom: 50%;
+  column-gap: 10px;
+
+  background-image: url(https://rukminim1.flixcart.com/image/850/1000/xif0q/pooja-thali-set/2/l/m/yes-pooja-thali-03-puja-thali-designer-decoration-original-imaghhgh6jknjfgh.jpeg?q=20);
+}
+#box3 {
+  position: relative;
+  top: auto;
+  left: 00px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: yellowgreen;
+  background-color: rgb(176, 89, 176);
+}
